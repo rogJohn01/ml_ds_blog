@@ -11,9 +11,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:            ML_blog
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="httpss://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      ' Posting about machine learning and data-science for hobby'
 url:              https://hyde.getpoole.com
 baseurl: /ml_ds_blog
 
