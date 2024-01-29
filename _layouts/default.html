@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  {% include head.html %}
+  <script>
+    MathJax = {
+        tex: {
+            inlineMath: [['\\(', '\\)'], ['$', '$']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            scale: 1.8 // Adjust this value as needed
+        }
+    };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+pt>
+  
+</head>
+
+<body class="theme-base-0d">
+  {% include sidebar.html %}
+  <div class="content container">
+    {{ content }}
+  </div>
+
+  
+</body>
+</html>
