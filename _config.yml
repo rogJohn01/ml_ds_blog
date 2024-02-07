@@ -19,7 +19,7 @@ baseurl: /ml_ds_blog
 
 
 author:
-  name:           'Mark Otto'
+  name:           'John Han'
   url:            httpss://twitter.com/mdo
 
 paginate:         5
